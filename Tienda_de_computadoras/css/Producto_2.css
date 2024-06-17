@@ -87,6 +87,10 @@ footer a{
     text-decoration: none;
     margin: 0px 10%;
     font-weight: bold;
+    transition-duration: 1s;
+}
+footer a:hover{
+    background-color: black;
 }
 /* NoDisponible */
 section.NoDisponible{
@@ -116,7 +120,7 @@ section.NoDisponible img{
     }
 }
 @media (max-width:250px) {
-    main div.Rate{
+    main div.Informacion div.Rate{
         flex-direction: column;
         height: auto;
         width: 30px;
