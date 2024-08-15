@@ -1,0 +1,222 @@
+[
+    {
+        "titulo": "Portatil Asus Rog Strix G16 Gaming G614 Eclipse Gray",
+        "precio": "6.732.672",
+        "imagen": "./Resources/img/Producto_1.png",
+        "contenido": [
+            4,
+            "576 Review",
+            ["h2","Descripcion"],
+            ["p","Disfruta de la perfecta combinación de rendimiento y diseño con este ordenador ASUS ROS STRIX G16 G614. Encontrarás en él una excelente herramienta para tus trabajos de todos los días y para tus momentos de entretenimiento. Aprovecha la experiencia extraordinaria que la marca tiene para ofrecerte y optimiza la calidad de tus imágenes y videos."],
+            ["h3","Alta eficiencia a tu alcance"],
+            ["p","Su procesador Intel Core i7 de 14 núcleos, está pensado para quienes buscan la máxima exigencia en la productividad. Está destinado a personas que trabajan con programas de diseño, de edición o tienen un nivel de juego alto. Llevará a cabo varios procesos de forma simultánea, sin frenos y te brindará una experiencia excepcional."],
+            ["h3","Potente disco sólido"],
+            ["p","El disco sólido de 512 GB hace que el equipo funcione a gran velocidad y por lo tanto te brinda mayor agilidad para operar con diversos programas."],
+            ["h3","Un procesador exclusivo para los gráficos"],
+            ["p","Su tarjeta gráfica NVIDIA GeForce RTX 4060 8GB convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico."],
+            ["h2","Caracteristicas"],
+            ["ul",[
+                ["strong","Procesador:"," Intel Core i7."],
+                ["strong","Memoria RAM:"," 16GB."],
+                ["strong","Pantalla:"," LED de 16\"."],
+                ["strong","Resolución:"," 1920x1200 px."],
+                ["","Es antirreflejo."],
+                ["strong","Tarjeta gráfica:"," NVIDIA GeForce RTX 4060 8GB GDDR6."],
+                ["strong","Conexión:"," wifi y bluetooth."],
+                ["","Cuenta con puerto USB y puerto HDMI."],
+                ["","Con teclado retroiluminado."]
+            ]]
+        ]
+    },
+    {
+        "titulo": "Portatil Asus Vivobook X1504za-nj372 Azul",
+        "precio": "2.049.350",
+        "imagen": "./Resources/img/Producto_2.png",
+        "contenido": [
+            5,
+            "1423 Review",
+            ["h2","Descripcion"],
+            ["p","Convierte las tareas cotidianas en algo especial con Vivobook 15, tu herramienta esencial para hacer las cosas más fácilmente, en cualquier lugar. También es completamente fácil de usar, con su bisagra plana de 180° y el protector físico de la cámara web. ASUS Antimicrobial Guard Plus protege las superficies que se tocan con frecuencia de bacterias dañinas, salvaguardando su salud. ¡Haz que todos tus días sean más agradables con Vivobook 15!"],
+            ["p","Con Vivobook 15, siempre estará listo para realizar cualquier tarea cotidiana, ya sea trabajo, juego o entretenimiento. Independientemente de lo que necesite lograr, siempre hay suficiente potencia informática disponible con procesador Intel de 12.ª generación.® Core™, 20GB de memoria rápida, 512Gb de almacenamiento SSD rápido y una amplia gama de conectividad inalámbrica hasta WiFi 6 le permite cargar contenido en línea en un abrir y cerrar de ojos."],
+            ["h3","Carga con velocidad"],
+            ["p","Vivobook 15 admite carga rápida, lo que le permite cargar una batería baja al 60 % en tan solo 49 minutos, ¡para que pueda estar listo y funcionando más rápido que nunca!"],
+            ["h2","Caracteristicas"],
+            ["ul",[
+                ["strong","Procesador:"," Intel Core i5."],
+                ["strong","Memoria RAM:"," 20GB."],
+                ["strong","Pantalla:"," LED de 15.6\"."],
+                ["strong","Resolución:"," 1920x1080 px."],
+                ["strong","Tarjeta gráfica:"," Gráficos Intel® Iris® X."],
+                ["strong","Conexión:"," wifi y bluetooth."],
+                ["","Cuenta con 4 puertos USB y puerto HDMI."],
+                ["","Posee pad numérico."],
+                ["","Modo de sonido Stereo."]
+            ]]
+        ]
+    },
+    {
+        "titulo": "Torre Gamer Ryzen 7",
+        "precio": "2.339.910",
+        "imagen": "./Resources/img/Producto_3.png",
+        "contenido": [
+            3,
+            "612 Review",
+            ["h2","Especificaciones Técnicas"],
+            ["h3","Chasis"],
+            ["ul",[
+                ["","Torre Power Group L18."],
+                ["","Acrílico Lateral Transparente."],
+                ["strong","Tamaño del chasis:"," 410*195*450mm (Largo*Ancho*Alto)."],
+                ["","1 x USB3.0 + 2 x USB2.0 + HD Audio, puertos ubicados en la parte superior."],
+                ["","4 Ventiladores ARGB."],
+                ["","Fuente de poder real de 350W."]
+            ]],
+            ["h3","Board"],
+            ["ul",[
+                ["","Soporta Socket AMD AM4 Ryzen™ 3000, 4000 G-Series y 5000 Series Desktop Processors."],
+                ["","Soporta memoria DDR4 4600+ (OC) (Ryzen CPU)."],
+                ["","1 PCIe 3.0 x16, 1 PCIe 3.0 x1."],
+                ["strong","Opciones de salida gráficos:"," HDMI, DVI-D, VGA."],
+                ["","Audio 7.1 canales HD (Realtek ALC887 Audio Codec), Capacitadores de audio ELNA."],
+                ["","4 SATA3, 1 Ultra M.2 (PCIe Gen3 x4 & SATA3)."],
+                ["","6 USB 3.1 Gen1 (2 Frontales, 4 Traseros)."],
+                ["","Realtek Gigabit LAN."]
+            ]],
+            ["h3","Procesador"],
+            ["ul",[
+                ["strong","Referencia:"," AMD Ryzen™ 7 5700G"],
+                ["strong","# de núcleos de CPU:"," 8"],
+                ["strong","# de hilos:"," 16"],
+                ["strong","Velocidad base de reloj:"," 3.8GHz"],
+                ["strong","Max Turbo Core Speed:"," 4.6GHz"],
+                ["strong","# de GPU Cores:"," 8"],
+                ["strong","Graphics Model:"," Radeon™ Graphics"],
+                ["strong","Shader cores:"," 512"],
+                ["strong","Graphics Frequency:"," 2000 MHZ"],
+                ["strong","Caché L2 total:"," 4MB"],
+                ["strong","Caché L3 total:"," 16MB"],
+                ["strong","Package:"," AM4"],
+                ["strong","Versión de PCI Express:"," PCIe 3.0"],
+                ["strong","Thermal Solution:"," Wraith Stealth"],
+                ["strong","Default TDP / TDP:"," 65W"]
+            ]],
+            ["h3","Disco Duro"],
+            ["ul",[
+                ["","Disco Sólido SSD 1TB"]
+            ]],
+            ["h3","Memoria Ram"],
+            ["ul",[
+                ["strong","Tamaño:"," 32768MB (1X32GB ó 2X16GB)"],
+                ["strong","Tipo de memoria:"," DDR4"],
+                ["strong","Memory Clock Speed:"," 3200MHZ Blindada"],
+                ["strong","Número de Pines:"," 288"]
+            ]]
+        ]
+    },
+    {
+        "titulo": "Desktop Hp",
+        "precio": "1.653.900",
+        "imagen": "./Resources/img/Producto_4.png",
+        "contenido": [
+            3,
+            "723 Review",
+            ["h2","Descripcion"],
+            ["h3","La All-in-One que tu familia necesita."],
+            ["p","El equipo Todo-en-Uno HP combina la potencia de un equipo de escritorio con la belleza de una pantalla moderna y delgada en un dispositivo confiable que está diseñado para crecer contigo."],
+            ["h3","Construida para durar."],
+            ["p","Puedes renovar tu computadora sin perder la garantía, ampliando la memoria o incrementando el almacenamiento."],
+            ["h3","Un equipo potente."],
+            ["p","Supera los días de mayor actividad y guarda todo lo que amas gracias al desempeño de un confiable procesador y el abundante almacenamiento."],
+            ["h3","Se diseñó con inteligencia."],
+            ["p","La pantalla con micro bordes en tres lados te permite ver más de tu pantalla gracias a una cámara de privacidad emergente que puedes cerrar cuando no está en uso."],
+            ["h2","Caracteristicas"],
+            ["ul",[
+                ["strong","Procesador:"," Intel® CoreTM i3-1125G4 (up to 3.7 GHz with Intel® Turbo Boost Technology, 8 MB cache, 4 cores)"],
+                ["strong","Tarjeta Gráfica:"," Intel® UHD"],
+                ["strong","RAM:"," 8 GB DDR4-3200 MHz RAM (1 x 8 GB)"],
+                ["strong","Almacenamiento:"," 256 GB PCIe® NVMeTM M.2 SSD"],
+                ["strong","Pantalla:"," 60.5 cm (23.8\") diagonal FHD display"],
+                ["strong","Pantalla Táctil:"," No"],
+                ["strong","Sistema Operativo:"," Windows 11 Home"],
+                ["strong","Batería:"," Adaptador de alimentación de CA inteligente de 65 W"],
+                ["strong","Sonido:"," DTS Headphone: XTM; Altavoces dobles de 2 W"],
+                ["strong","Teclado:"," HP 230 Black Wireless Keyboard and Mouse combo"],
+                ["strong","Puertos:"," 2 USB Tipo-A con velocidad de señalización de 5 Gb/s; 2 USB 2.0 Tipo-A; 1 salida HDMI de 1,4; 1 combinación de audífonos/micrófono; 1 RJ-45"],
+                ["strong","Cámara:"," Cámara de privacidad HP Wide Vision 1080p FHD IR con micrófonos digitales de matriz dual integrados"],
+                ["strong","Conectividad:"," Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"],
+                ["strong","Incluido en la Caja:"," HP 230 Black Wireless Keyboard and Mouse combo"],
+                ["strong","Color:"," Negro"]
+            ]]
+        ]
+    },
+    {
+        "titulo": "Mini Pc Beelink",
+        "precio": "874.000",
+        "imagen": "./Resources/img/Producto_5.png",
+        "contenido": [
+            4,
+            "4231 Review",
+            ["h2","Descripcion"],
+            ["p","La última 12ª Intel Alder Lake-N100: la mini PC Beelink Mini S12 Pro funciona con el último procesador Intel de 12ª generación Alder Lake-N100 (4C/4T, 6M Smart Cache, hasta 3.4GHz, 25W TDP), ofrece un rendimiento más del 25% más alto que N5105. En comparación con la mini PC U59 Pro, el Mini S12 Pro es más pequeño, solo 4.52 x 4.01 x 1.54 pulgadas. Más fácil de llevar a cualquier lugar para un trabajo flexible. El tamaño compacto hace que la mini computadora sea la mejor opción para su trabajo ligero de oficina, reproducción de video 4K, educación en línea, diseño, etc."],
+            ["p","16 GB DDR4 + 500 GB SSD, compatible con actualizaciones: la mini PC Beelink N100 tiene un solo canal integrado de 16 GB DDR4 RAM (máximo 3200 MHz) y 500 GB PCIe 1X SSD. Puede reemplazar el SSD a un máximo de 2 TB o agregar 2 TB de 2.5 pulgadas 0.276 in HDD/M.2 SSD 2280 (no incluido) para ampliar el almacenamiento. La gran capacidad le permite cambiar de ida y vuelta entre más aplicaciones y guardar más documentos o películas favoritas."],
+            ["p","Gráficos UHD y pantalla dual 4K: la mini computadora de escritorio está equipada con gráficos Intel UHD (máximo 750 MHz), ofrece un potente rendimiento gráfico, admite reproducción de video 4K y decodificación AV1, conecta la PC con un proyector como cine en casa, disfruta de una variedad de entretenimientos. Dos puertos HDMI 2.0 le permiten realizar múltiples tareas de manera eficiente en dos pantallas de 4K@60Hz. Es conveniente ocultar las mini PC en la parte posterior del monitor o HDTV a través del soporte VESA, liberarlo del escritorio desordenado."],
+            ["p","WiFi6 estable y BT5.2 rápido: la última conectividad inalámbrica con 802.11ax que ofrece velocidades de hasta 600 Mbps. El Bluetooth 5.2 incorporado le permite conectar múltiples dispositivos inalámbricos como ratones, teclado, equipos de monitoreo, impresora y monitor. Tecnología de conexión inalámbrica de alta velocidad, velocidad de transmisión confiable y eficiente, proporcionando una experiencia de Internet más rápida para navegar y transmitir. La PC pequeña admite Wake On LAN, PXE Boot, RTC Wake y Auto Power On, ideal para usar como servidor."],
+            ["p","Interfaz mejorada + disipación de calor eficiente: la micro PC Mini S12 Pro viene con múltiples interfaces (4 USB 3.2 Gen2, 2 HDMI2.0, 1 LAN de 1000 M, 1 conector de audio, 1 conector de CC). Los nuevos puertos USB3.2 Gen2 actualizados funcionan a velocidades de hasta 10 Gbps, que es 2 veces más rápido que el USB3.0. El ventilador ultrasilencioso, el disipador de calor y la cubierta de refrigeración del disco duro integrados ayudan a enfriar el procesador de la CPU y reducir la pérdida de hardware, ofreciendo una velocidad de respuesta más rápida."],
+            ["h2","Caracteristicas"],
+            ["ul",[
+                ["strong","Marzo:"," Beelink"],
+                ["strong","Nombre del modelo:"," MINI S"],
+                ["strong","Color:"," Azul marino"],
+                ["strong","Usos específicos del producto:"," Oficina de negocios, Multimedia, Educación"],
+                ["strong","Tipo de diseño de computadora personal:"," Mini PC"],
+                ["strong","Sistema operativo:"," Windows 11 pro"],
+                ["strong","Máxima resolución de pantalla:"," 3840 x 2160 pixels, Support 4K@60Hz"],
+                ["strong","Procesador:"," 3.4 GHz"],
+                ["strong","Núcleo/subproceso:"," 4C/4T, caché inteligente de 6 MB"],
+                ["strong","Base / Frecuencia de ráfaga:"," 0.8GHz - 3.4GHz, TDP 6W"],
+                ["strong","CPU:"," Intel Alder Lake-N100"],
+                ["strong","RAM:"," (SO-DIMM) 16GB DDR4 (3200MHz)"],
+                ["strong","Velocidad de memoria:"," 3,4 GHz"],
+                ["strong","Disco Duro:"," ROM (M.2 2280 SSD) 500GB PCIe X1 SSD (800MB / s)"],
+                ["strong","Coprocesador de gráficos:"," Gráficos Intel UHD 750MHz"],
+                ["strong","Marca:"," Chipset Intel"],
+                ["strong","Descripción de la tarjeta:"," Integrado"],
+                ["strong","Tipo de conexión inalámbrica:"," WiFi 6(802.11ax), BT 5.2"],
+                ["strong","Dimensiones del producto:"," 4,53 x 4,02 x 1,61 pulgadas"],
+                ["strong","Tipo de memoria del equipo:"," SODIMM"],
+                ["strong","Salidas de vídeo:"," 2 x HDMI"],
+                ["strong","Ethernet:"," Realte 8111H 1000Mbps"],
+                ["strong","Interfaz de la unidad de disco duro:"," PCIE x 2"],
+                ["strong","Ranura interna:"," Ranura DDR x1, M.2 PCIe 1X Ranura x1, 2.5\" SATA III HDD/SSD Ranura x1"]
+            ]]
+        ]
+    },
+    {
+        "titulo": "Apple Mac Mini",
+        "precio": "2.595.000",
+        "imagen": "./Resources/img/Producto_6.png",
+        "contenido": [
+            4,
+            "3214 Review",
+            ["h2","Descripcion"],
+            ["p","Mac mini es la mini pc de Apple. Con esta CPU se puede trabajar, crear y también jugar, ya que tiene un rendimiento extraordinario, gran capacidad de almacenamiento y velocidad tanto para procesar gráficos como para realizar tareas simples."],
+            ["h2","Caracteristicas"],
+            ["ul",[
+                ["strong","Nombre del sistema operativo:"," macOS"],
+                ["strong","Capacidad de almacenamiento:"," 256 GB"],
+                ["strong","Memoria RAM:"," 8 GB"],
+                ["strong","Procesador:"," M2"],
+                ["strong","Voltaje:"," 100V/240V"],
+                ["strong","Sistemas operativos compatibles:"," macOS."],
+                ["","Tiene 2 puertos USB Thunderbolt, Type A."],
+                ["strong","Puertos de video:"," HDMI, Thunderbolt 3."],
+                ["","Altavoces incorporados."],
+                ["","Conexión para auriculares."],
+                ["","Con Bluetooth."],
+                ["","Puerto Ethernet incorporado."],
+                ["strong","Dimensiones:"," 3.6cm de alto x 19.7cm de ancho x 19.7cm de profundidad y pesa 1.2kg."],
+                ["","Cómoda y práctica para realizar todo tipo de tareas."]
+            ]]
+        ]
+    }
+]

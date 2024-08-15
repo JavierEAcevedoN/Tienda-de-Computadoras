@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* general */
-body{
-    font-family: "Roboto", sans-serif;  
+body {
+    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0px;
     overflow-wrap: break-word;
     text-align: center;
 }
-h1{
+h1 {
     text-transform: uppercase;
 }
-h2{
+h2 {
     text-transform: uppercase;
 }
 /* encabezado */
@@ -36,21 +36,21 @@ header a img {
 }
 /* main */
 main p,
-main h2{
+main h2 {
     padding: 0px 10px;
 }
-main div{
+main div {
     display: flex;
     flex-direction: column;
     border: 1px solid gray;
     margin: 5px 15px;
     padding: 5px;
-    width: 50%;
-    height: fit-content;
+    width: 200px;
     border-radius: 10px;
     transition-duration: 3s;
+    justify-content: center;
 }
-main div a{
+main div a {
     color: white;
     background-color: black;
     border-radius: 10px;
@@ -58,48 +58,60 @@ main div a{
     padding: 0px 5px;
     transition-duration: 1s;
 }
-main div a:hover{
+main div a:hover {
     color: black;
     background-color: white;
 }
-main div.Color1{
+main div.Color1 {
     background-color: hsl(0, 0%, 68%);
 }
-main div.Color2{
+main div.Color2 {
     background-color: hsl(0, 0%, 86%);
 }
-main section.Catalogo{
+main section#Catalogo {
     display: flex;
     overflow-x: scroll;
 }
-main section.Destacado{
+main section#Destacado {
     display: flex;
     overflow-x: scroll;
 }
-/* NoDisponible */
-section.NoDisponible{
-    display: none;
-    top:37%;
-    left: 10%;
-    right: 10%;
-    position: absolute;
-    font-size: 30px;
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+    box-shadow: 0px -1px 10px 0px black;
+    border-radius: 10px 10px 0px 0px;
 }
-section.NoDisponible img{
-    width: 200px;
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 2px black;
 }
-@media (min-width:450px) {
-    header{
-        display: none;
+footer a img {
+    width: 74%;
+    height: 74%;
+}
+@media (min-width: 500px) {
+    main section#Catalogo {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: hidden;
     }
-    main{
-        display: none;
-    }
-    section.NoDisponible{
-        display: block;
+    main section#Destacado {
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: hidden;
     }
 }
-@media (max-width:180px) {
+@media (max-width: 180px) {
     header {
         display: block;
     }
