@@ -74,6 +74,18 @@ document.addEventListener("DOMContentLoaded", () => {
     footer.classList.add(color)
     footer.innerHTML = `
     <p><span>Precio:</span> $ ${producto.precio}</p>
-    <a class="${color}" href="../html/Carrito.html">Comprar</a>
+    <a class="${color}" href="#" onclick="comprarProducto()">Comprar</a>
     `;
 });
+const comprarProducto = () => {
+    const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    const producto = JSON.parse(localStorage.getItem("producto_seleccionado"));
+    if (carrito.some(item => item.numero === producto.numero)) {
+        alert("Este producto ya se encuentra en el carrito");
+        return;
+    }
+    carrito.push(producto);
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    alert("Producto añadido al carrito");
+    window.location.href = "../html/Carrito.html";
+}
