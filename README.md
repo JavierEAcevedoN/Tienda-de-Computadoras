@@ -33,7 +33,7 @@ El wireframe de la pagina principal.
 ![Screenshot_2](./Tienda_de_computadoras/Resources/img/Screenshot_2.png)  
 Resultado final en telefono.  
 ![Screenshot_3](./Tienda_de_computadoras/Resources/img/Screenshot_3.png)  
-Resultado final en pc.
+Resultado final en pc.  
 ***
 ![Screenshot_4](./Tienda_de_computadoras/Resources/img/Screenshot_4.png)  
 El wireframe de la pagina de información.  
@@ -54,7 +54,8 @@ Clonar repositorio
 https://github.com/JavierEAcevedoN/PROYECTO-FILTRO_Acevedo_Javier_Noguera_Eduardo.git
 ```
 ### Uso
-Ejecutar el index.html con Live Server.  
+Ejecutar el index.html con Live Server o puedes utilizar el siguiente enlace:  
+- [Pagina principal](https://javiereacevedon.github.io/PROYECTO-FILTRO_Acevedo_Javier_Noguera_Eduardo/Tienda_de_computadoras/Index.html)  
 ### Autor
 - [JavierEAcevedoN](https://github.com/JavierEAcevedoN)
 ### Contacto
