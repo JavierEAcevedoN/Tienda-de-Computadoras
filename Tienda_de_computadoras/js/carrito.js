@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const main = document.querySelector("main");
     const carrito = JSON.parse(localStorage.getItem("carrito"));
-    if (carrito.length === 0) {
+    if (carrito === null || carrito.length === 0) {
         main.innerHTML = `
         <p class="No_productos">No hay productos</p>
         `;
@@ -111,7 +111,7 @@ const calcularPrecio = () => {
     const main = document.querySelector("main");
     const oldFooter = document.querySelector("footer");
     const carrito = JSON.parse(localStorage.getItem("carrito"));
-    if (carrito.length === 0) {
+    if (carrito === null ||  carrito.length === 0) {
         main.innerHTML = `
         <p class="No_productos">No hay productos</p>
         `;
@@ -142,7 +142,12 @@ const calcularPrecio = () => {
     }
     footer.innerHTML = `
         <p><span class="Negrilla">Total:</span> $ ${total}</p>
-        <button onclick="alert('Gracias por comprar')">Continuar</button>
+        <button onclick="limpiarCarrito()">Comprar</button>
     `;
     body.appendChild(footer);
 };
+const limpiarCarrito = () => {
+    alert('Gracias por comprar')
+    localStorage.removeItem("carrito");
+    location.reload();
+}
