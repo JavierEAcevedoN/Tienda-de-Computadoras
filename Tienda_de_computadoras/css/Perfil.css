@@ -71,6 +71,7 @@ main button {
     border: none;
     font-size: 20px;
     transition: all 0.3s;
+    width: 50%;
 }
 main button:hover {
     background-color: hsl(0, 0%, 68%);
