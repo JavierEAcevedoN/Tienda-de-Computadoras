@@ -64,10 +64,15 @@ const mostrarProductosDestacado = async () => {
 const guardarProducto = async (event) => {
     const productos = await cargarProductos();
     const clase = event.target.parentElement.classList.item(0)
-    const numero = clase[clase.length-1]-1
+    const numero = clase.split('_')[1] - 1
     productos[numero] = {...productos[numero], numero: numero}
     localStorage.setItem("producto_seleccionado", JSON.stringify(productos[numero]))
     window.location.href = "./html/Producto.html";
 }
 mostrarProductosCatalogo();
 mostrarProductosDestacado();
+if (localStorage.getItem("datos_usuario") != null) {
+    const datos = JSON.parse(localStorage.getItem("datos_usuario"));
+    document.querySelector("img[alt='Imagen_perfil']").src = datos.imagenUsuario;
+    document.querySelector("h1").textContent = `Bienvenido ${datos.nombreUsuario}!`;
+}

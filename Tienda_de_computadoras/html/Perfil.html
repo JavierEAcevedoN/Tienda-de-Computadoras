@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Perfil</title>
+        <link rel="stylesheet" href="../css/Perfil.css" />
+        <script defer src="../js/Perfil.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="../Index.html">
+                <img src="../Resources/img/Regresar.png" alt="Regresar" />
+            </a>
+            <a href="../html/Carrito.html">
+                <img
+                    src="../Resources/img/Carrito_compras.png"
+                    alt="Carrito_Compras"
+                />
+            </a>
+        </header>
+        <main>
+            <h1>Configuracion</h1>
+            <h2>Imagen de perfil</h2>
+            <input
+                type="text"
+                id="imagen_perfil"
+                placeholder="Ingresa el URL aqui"
+                onchange="imagenPerfil()"
+            />
+            <h2>Preview</h2>
+            <img
+                id="preview_imagen"
+                alt="preview_imagen"
+                style="display: none"
+                onerror="changeError(event)"
+            />
+            <h2>Nombre de perfil</h2>
+            <input
+                type="text"
+                id="nombre_perfil"
+                placeholder="Ingresa el nombre aqui (30 max)"
+                onchange="nombrePerfil()"
+            />
+            <h2>Preview</h2>
+            <h3 id="preview_nombre" style="display: none"></h3>
+            <button id="guardar_btn" onclick="guardarInformacion()">Guardar</button>
+        </main>
+    </body>
+</html>

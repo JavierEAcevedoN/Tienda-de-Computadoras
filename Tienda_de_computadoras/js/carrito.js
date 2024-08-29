@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
     let productos = "";
+    let imagen = "";
     for (let i = 0; i < carrito.length; i++) {
         const producto = carrito[i];
         if (producto.numero % 2 === 0) {
@@ -15,9 +16,16 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             color = "Color2";
         }
+        if (
+            /https?:\/{2}([a-zA-Z0-9-]+\.)?[a-zA-Z0-9]+\.[a-zA-Z]{2,6}.*/.test(producto.imagen)
+        ) {
+            imagen = `<img src="${producto.imagen}" alt="${producto.titulo}">`
+        } else {
+            imagen = `<img src=".${producto.imagen}" alt="${producto.titulo}">`
+        }
         productos += `
         <div class="Producto_${producto.numero} ${color}">
-            <img src=".${producto.imagen}" alt="${producto.titulo}">
+            ${imagen}
             <div class="Contenido">
                 <h2>${producto.titulo}</h2>
                 <p>Precio: $ <span class="precio">${producto.precio}</span></p>

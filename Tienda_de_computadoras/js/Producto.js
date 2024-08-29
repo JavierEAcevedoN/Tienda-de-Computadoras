@@ -61,8 +61,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     // Aqui se genera el main
+    if (
+        /https?:\/{2}([a-zA-Z0-9-]+\.)?[a-zA-Z0-9]+\.[a-zA-Z]{2,6}.*/.test(producto.imagen)
+    ) {
+        imagen = `<img src="${producto.imagen}" alt="${producto.titulo}">`
+    } else {
+        imagen = `<img src=".${producto.imagen}" alt="${producto.titulo}">`
+    }
     main.innerHTML = `
-    <img src=".${producto.imagen}" alt="${producto.titulo}">
+    ${imagen}
     <div class="Informacion ${color}">
         <h1 class="${color}">${producto.titulo}</h1>
         <span>$ ${producto.precio}</span>

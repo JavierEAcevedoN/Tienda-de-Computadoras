@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* general */
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+/* encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 2px black;
+    margin: 5px;
+}
+header a img {
+    width: 74%;
+    height: 74%;
+}
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 86%);
+    padding: 5px 0px;
+}
+main h1, main h2, main button {
+    text-transform: uppercase;
+    background-color: dimgray;
+    border-radius: 10px;
+    padding: 0px 5px;
+    margin: 10px 0px;
+    color: hsl(0, 0%, 86%);
+}
+main h3 {
+    margin: 10px 0px;
+    color: dimgray;
+}
+main input {
+    border: 1px solid dimgray;
+    margin: 5px 15px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+main img {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid dimgray;
+}
+main button {
+    text-transform: uppercase;
+    background-color: dimgray;
+    border-radius: 10px;
+    padding: 0px 5px;
+    color: hsl(0, 0%, 86%);
+    border: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+main button:hover {
+    background-color: hsl(0, 0%, 68%);
+    color: dimgray;
+}
+@media (max-width:424px) {
+    main h1 {
+        width: 62%;
+    }
+    main h2 {
+        width: 50%;
+    }
+    main h3 {
+        width: 50%;
+    }
+    main img {
+        width: 50%;
+    }
+}
+@media (max-width: 180px) {
+    header {
+        display: block;
+    }
+    header a {
+        width: auto;
+        max-width: 50px;
+    }
+}
