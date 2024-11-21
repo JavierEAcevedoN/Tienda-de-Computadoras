@@ -1,4 +1,4 @@
-# Proyecto de HTML/CSS
+# Tienda de Computadoras
 ## Tabla de contenidos
 - [Descripcion](#descripcion)
 - [Proceso](#proceso)
@@ -51,11 +51,11 @@ El wireframe de la pagina del carrito.
 ### Instalacion
 Clonar repositorio
 ```sh
-https://github.com/JavierEAcevedoN/PROYECTO-FILTRO_Acevedo_Javier_Noguera_Eduardo.git
+https://github.com/JavierEAcevedoN/Tienda-de-Computadoras.git
 ```
 ### Uso
 Ejecutar el index.html con Live Server o puedes utilizar el siguiente enlace:  
-- [Pagina principal](https://javiereacevedon.github.io/PROYECTO-FILTRO_Acevedo_Javier_Noguera_Eduardo/Tienda_de_computadoras/Index.html)  
+- [Pagina principal](https://javiereacevedon.github.io/Tienda-de-Computadoras/Tienda_de_computadoras/Index.html)  
 ### Autor
 - [JavierEAcevedoN](https://github.com/JavierEAcevedoN)
 ### Contacto
